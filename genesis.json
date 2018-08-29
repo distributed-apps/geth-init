@@ -1,11 +1,14 @@
 {
   "config": {
-        "chainId": 0,
-        "homesteadBlock": 0,
-        "eip155Block": 0,
-        "eip158Block": 0
-    },
-  "alloc"      : {},
+      "chainId": 0,
+      "homesteadBlock": 0,
+      "eip155Block": 0,
+      "eip158Block": 0
+  },
+  "alloc": {
+    "0x0000000000000000000000000000000000000001": {"balance": "111111111"},
+    "0x0000000000000000000000000000000000000002": {"balance": "222222222"}
+  },
   "coinbase"   : "0x0000000000000000000000000000000000000000",
   "difficulty" : "0x20000",
   "extraData"  : "",
